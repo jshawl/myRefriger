@@ -48,7 +48,7 @@ a {
 .nav li {
   font-size: 1.2em;
   line-height :40px;
-  height: 40px;
+  height: 40px; /* When possible, rely on padding the content to produce vertical height instead of hardcoding.*/
   border-bottom: 1px solid #888;
 }
 
@@ -56,7 +56,7 @@ a {
   text-decoration: none;
   color: #fff;
   display: block;
-  transition: .3s background-color;
+  transition: .3s background-color; /* AWESOME!! :) */
 }
 
 .nav a:hover {
@@ -105,3 +105,5 @@ th {
     text-align:center;
     padding:5px;
 }
+
+/* Awesome CSS Tae!! */

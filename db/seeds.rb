@@ -87,3 +87,8 @@ Slice bread in half lengthwise and place on a large baking sheet lined with alum
 Spread 1/4 cup pizza sauce on each bread half, then top each with 1/4 cup cheese. Add desired toppings. Evenly sprinkle bread halves with remaining 1/2 cup cheese. Season with salt and pepper.
 
 Bake for 10-12 minutes, or until cheese is melted and bread is heated through.")
+
+# Excellent Seeds here!
+# It looks like this will currently throw a syntax error, but I recommend seeding
+# a few users as well so that you can test out your associations before you start
+# displaying that data in a view.

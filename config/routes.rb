@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   end
 
   resources :posts do
+  # consider using a more semantic name, like recipes.
     resources :comments
   end
 

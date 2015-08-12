@@ -57,5 +57,7 @@ private
 
     def refriger_params
       params.require(:refriger).permit(:person, :location)
+      # I noticed you have a user model, maybe you can associate the
+      # current_user with the refriger?
     end
 end

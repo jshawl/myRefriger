@@ -20,6 +20,7 @@ class CommentsController < ApplicationController
   #create
   def create
     @post = Post.find(params[:post_id])
+    # You could also use a before_action to set this instance variable
     @comment = Comment.create(comment_params.merge(post: @post))
 
     redirect_to post_path(@post)
@@ -37,6 +38,7 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id])
     @comment = Comment.find(params[:id])
     @comment.update(comment_params.merge(post: @post))
+    # excellent use of .merge!
 
     redirect_to post_path(@post, @comment)
 
